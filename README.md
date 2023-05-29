@@ -1,6 +1,8 @@
 # L293D-StepMotor
 Stepper motor control made using L293D
 
+
+# Code
 İlk olarak, AFMotor.h kütüphanesini projeye dahil ediyoruz. Bu kütüphane, motor kontrolü için gerekli işlevleri sağlar. Ardından, AF_Stepper sınıfından bir motor nesnesi oluşturuyoruz. Bu nesne, 48 adım/devir ve 2 numaralı motor bağlantı pini üzerinden motoru kontrol etmek için kullanılır.
 
 setup() fonksiyonunda, motor hızını setSpeed() fonksiyonu ile 100 adım/saniye olarak ayarlıyoruz.
@@ -19,7 +21,7 @@ Bu şekilde, kod step motoru 100 adım ileri ve 100 adım geri hareket ettirerek
 
 
 
-
+# Connection
 
 1. İlk olarak, L293D shield'i Arduino veya mikrodenetleyici kartınıza doğru şekilde yerleştirin. Shield, Arduino üzerindeki pimlere doğru şekilde oturmalıdır.
 
